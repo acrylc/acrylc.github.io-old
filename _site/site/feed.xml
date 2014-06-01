@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>My Blog</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You&#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;def print_hi(name)
+  puts &amp;quot;Hi, #{name}&amp;quot;
+end
+print_hi(&amp;#39;Tom&amp;#39;)
+#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 13:32:26 -0400</pubDate>
+        <link>http://localhost:4000/site/2014/05/29/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/site/2014/05/29/welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Computable Blocks of the Internet</title>
+        <description>&lt;p&gt;&lt;x-life width=&#39;800&#39; height=&#39;250&#39; backgroundColor = &#39;rgb(160,248,253)&#39; cellColor=&#39;rgb(250,230,60)&#39; cellSize = &#39;3&#39; style=&#39;margin-left:-100px&#39;&gt;&lt;/x-life&gt;&lt;/p&gt;
+
+&lt;!-- ![Alt text](/assets/gol.png)
+ --&gt;
+
+
+&lt;!-- &lt;div id=&#39;cover&#39;&gt;
+
+&lt;/div&gt; --&gt;
+
+
+&lt;h2&gt;Web Components&lt;/h2&gt;
+
+&lt;p&gt;Web components are reusable components that encapsulate HTML, CSS and Javascript. To learn more about web components, I’d suggest reading the official &lt;a href=&#39;http://w3c.github.io/webcomponents/explainer/&#39;&gt;w3c specification&lt;/a&gt;, or watching Eric Bidelman&#39;s talk, &lt;a href=&#39;https://www.youtube.com/watch?v=fqULJBBEVQE&#39;&gt;Web Components: A Tectonic Shift for Web Development&lt;/a&gt;. In short, these components are built using the following four technologies :&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Templates&lt;/b&gt; The &amp;lt;template&gt; tag allows you to define markup to be used later.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Custom templates &lt;/b&gt; The custom elements specification allows developers to define their own DOM elements.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Shadow DOM&lt;/b&gt; Encapsulate code so that it doesn’t bleed out into the external code.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;HTML Imports&lt;/b&gt; I know what you’re thinking, &lt;em&gt;why doesn’t this exist yet&lt;/em&gt;?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;amp;ltlink rel=&quot;import&quot; href=&quot;import.html&quot;&amp;amp;gt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Component Based Web-Apps&lt;/h2&gt;
+
+&lt;p&gt;Web components aren’t enabling us to do something we were unable to do before, they’re simply a new tool that promote component-based software engineering in how we build web apps. The largest value to web components is that they promote expressivity, reusability and encapsulation.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Expressive markup &lt;/b&gt; Modern web components suffer from &amp;lt;div&gt; soup syndrom. Expressive markup  means writing web apps that are easier to read and maintain.  My favorite example of the potential expressivity web components promise is a &lt;a href=&quot; http://www.html5rocks.com/en/tutorials/webcomponents/customelements/&quot;&gt;rewrite&lt;/a&gt; of the GMAIL hangout module using Polymer, by Eric Bidelman.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Encapsulation &lt;/b&gt; Shadow DOM allows you to encapsulate code so that it doesn’t bleed out into the external code. This avoids component soup, but also prevents internal variables of the component, such as its styling, from mixing with the global scope. So any external style sheets or javascript has no effect on the component.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Reusability &lt;/b&gt; Platforms such as &lt;a href=&#39;http://component.kitchen/&#39;&gt;Component Kitchen&lt;/a&gt; are already promoting the sharing of web components. Sharing web components, as an alternative to sharing raw javascript, html and css files and asking the developer to … Despite that, these components are still versatile. Configuring components can be done through an interface of attributes, methods and events. Because of the ease of plugging in and configuring these components, reusability is much easier.&lt;/p&gt;
+
+&lt;h2&gt;X-Life&lt;/h2&gt;
+
+&lt;p&gt;To start dabbling with Polymer, I built &lt;a href=&#39;http://acrylc.github.io/x-life&#39;&gt;&amp;lt;x-life&gt;&lt;/a&gt;, a web component for Conway&#39;s Game of Life. The component encapsulates a canvas object and the logic for Life. At intialization, a random configuration of cells is created and a new generation is computed every 100ms.&lt;/p&gt;
+
+&lt;p&gt;To try out &amp;lt;x-life&gt; :&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Install using bower&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;bower install x-life --save
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;Import polymer and x-life&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&quot;bower_components/platform/platform.js&quot;&amp;gt; &amp;lt;/script&amp;gt;
+&amp;lt;link rel=&#39;import&#39; href=&quot;bower_components/x-life/dist/x-life.html&quot;&amp;gt; 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;b&gt;Include the x-life tag&lt;/b&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;x-life&amp;gt; &amp;lt;/x-life&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Attribute  &lt;/th&gt;
+&lt;th&gt; Options           &lt;/th&gt;
+&lt;th&gt; Default             &lt;/th&gt;
+&lt;th&gt; Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;width&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;em&gt;int&lt;/em&gt;   &lt;/td&gt;
+&lt;td&gt; 500             &lt;/td&gt;
+&lt;td&gt; Specifies the width of the GOL grid.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;height&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;em&gt;int&lt;/em&gt;   &lt;/td&gt;
+&lt;td&gt; 500            &lt;/td&gt;
+&lt;td&gt; Specifies the height of the GOL grid.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;backgroundColor&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;em&gt;string&lt;/em&gt;   &lt;/td&gt;
+&lt;td&gt; &lt;code&gt;white&lt;/code&gt;             &lt;/td&gt;
+&lt;td&gt; Specifies the background color, in rgb or hex.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cellColor&lt;/code&gt; &lt;/td&gt;
+&lt;td&gt; &lt;em&gt;string&lt;/em&gt;   &lt;/td&gt;
+&lt;td&gt; &lt;code&gt;black&lt;/code&gt;             &lt;/td&gt;
+&lt;td&gt; Specifies the cell color, in rgb or hex.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;cellSize&lt;/code&gt;     &lt;/td&gt;
+&lt;td&gt; &lt;em&gt;float&lt;/em&gt;    &lt;/td&gt;
+&lt;td&gt;  2   &lt;/td&gt;
+&lt;td&gt; Specifies the pixel size of a cell.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2&gt;Computable Bits&lt;/h2&gt;
+
+&lt;p&gt;As a web developer, I&#39;m very excited about web components.
+When I first encountered web components, I was particularly fascinated by the illusion created by the shadow DOM&#39;s encapsulation of component code. Web components are simple markup after all, but can hide away the workings of a turing machine. Giving a markup language such power is going to ...&lt;/p&gt;
+
+&lt;p&gt;I&#39;m reminded of Little Bits, a library of of electronic pre-programmed modules that snap together with magnets. I wasn&#39;t able to build my first robot untill my first year in undergrad, but I&#39;ll never forget my fascination as I watched my cousin&#39;s 10 year old daughter snap together her first pair of Little Bits to build a robot whose eyes light up when you shake his hand. Similarly, these web components, with their promises of expressivity, encapsulation and reusabilty, can snap together and vastly amplify our abilities in building web applications.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 May 2014 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2014/05/29/hello-world/</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/05/29/hello-world/</guid>
+      </item>
+    
+  </channel>
+</rss>

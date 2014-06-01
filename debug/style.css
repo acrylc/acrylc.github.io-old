@@ -1,0 +1,101 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\000031}}
+body {
+  background-color: #fafafa;
+  border-top: 5px solid #e6e6e4;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\000036}}
+#post-title {
+  font-family: "FuturaLT";
+  font-weight: 700;
+  font-size: 1.8em;
+  color: black;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000317}}
+#post-date {
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000322}}
+#post-content {
+  width: 600px;
+  margin: 0 auto;
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  padding-bottom: 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000335}}
+#post-content em {
+  font-style: 'italic';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000339}}
+#post-content img {
+  width: 800px !important;
+  margin: 20px 0 20px -100px;
+  height: 200px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000345}}
+#post-content h2 {
+  font-family: "FuturaLT";
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin: 45px 0 20px 0;
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000357}}
+h1 {
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000365}}
+#navbar {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000370}}
+#navbar div {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.3em;
+  font-family: "FuturaLT";
+  font-family: "Proxima Nova";
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #e6e6e4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000380}}
+#navbar div:hover {
+  color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000386}}
+#cover {
+  width: 500px;
+  height: 40px;
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000392}}
+pre {
+  border: 0px solid black;
+  border-radius: 0;
+  background-color: #f0f0ee;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/Blog\/sass\/main\.scss}line{font-family:\0000398}}
+th, td {
+  padding-right: 15px;
+}
