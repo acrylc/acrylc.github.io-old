@@ -1,3 +1,53 @@
+// Import fonts
+
+@font-face {
+font-family: 'Proxima Nova';
+src: url("/fonts/proxima/ProximaNova-Light.otf");
+font-weight:100;
+}
+
+@font-face {
+font-family: 'Proxima Nova';
+src: url("/fonts/proxima/ProximaNova-Regular.otf");
+font-weight:300;
+}
+
+@font-face {
+font-family: 'Proxima Nova';
+src: url("/fonts/proxima/ProximaNova-Bold.otf");
+font-weight:700;
+}
+
+@font-face {
+font-family: 'Proxima Nova';
+src: url("/fonts/proxima/ProximaNova-Black.otf");
+font-weight:800;
+}
+
+@font-face {
+font-family: 'FuturaLT';
+src: url("/fonts/futura/FuturaLT-Light.ttf");
+font-weight:100;
+}
+
+@font-face {
+font-family: 'FuturaLT';
+src: url("/fonts/futura/FuturaLT.ttf");
+font-weight: 300;
+}
+
+@font-face {
+font-family: 'FuturaLT';
+src: url("/fonts/futura/FuturaLT-Bold.ttf");
+font-weight: 700;
+}
+
+@font-face {
+font-family: 'FuturaLT';
+src: url("/fonts/futura/FuturaLT-ExtraBold.ttf");
+font-weight: 800;
+}
+
 a {
     color: darken(rgb(115,247,207), 30%);
     text-decoration: none !important;
@@ -89,7 +139,7 @@ h1{
 		margin:5px;
 		font-size:1.2em;
 		font-family:"FuturaLT";
-		font-family: "Proxima Nova";
+		// font-family: "Proxima Nova";
 		font-weight:900;
 		text-transform: uppercase;
 		color:rgb(230,230,228);
