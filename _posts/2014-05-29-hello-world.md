@@ -5,8 +5,8 @@ layout: post
 
 Web components aren’t enabling us to do something we were unable to do before, they’re simply a new tool that promote component-based software engineering in how we build web apps. The largest value to web components is that they promote expressivity, reusability and encapsulation. 
 
-<div id='cover-image' style='width:700px;height:350px;position:relative; margin: 30px 0 30px 0;'>
-<x-life width='700' height='350' backgroundColor = 'rgb(160,248,253)' cellColor='rgb(250,230,60)' cellSize = '3' style='margin-left:0px'>
+<div id='cover-image' style='width:650px;height:350px;position:relative; margin: 30px 0 30px -25px'>
+<x-life width='650' height='350' backgroundColor = 'rgb(160,248,253)' cellColor='rgb(250,230,60)' cellSize = '3' >
 </x-life>
 	<div id='caption'>Check the code</div>
 
