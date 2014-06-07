@@ -3,8 +3,14 @@ title: Computable Blocks of the Internet
 layout: post
 ---
 
+Web components aren’t enabling us to do something we were unable to do before, they’re simply a new tool that promote component-based software engineering in how we build web apps. The largest value to web components is that they promote expressivity, reusability and encapsulation. 
 
-<x-life width='800' height='250' backgroundColor = 'rgb(160,248,253)' cellColor='rgb(250,230,60)' cellSize = '3' style='margin-left:-100px'></x-life>
+<div id='cover-image' style='width:700px;height:350px;position:relative; margin: 30px 0 30px 0;'>
+<x-life width='700' height='350' backgroundColor = 'rgb(160,248,253)' cellColor='rgb(250,230,60)' cellSize = '3' style='margin-left:0px'>
+</x-life>
+	<div id='caption'>Check the code</div>
+
+</div>
 
 <!-- ![Alt text](/assets/gol.png)
  -->
@@ -24,7 +30,7 @@ Web components are reusable components that encapsulate HTML, CSS and Javascript
 
 <b>HTML Imports</b> I know what you’re thinking, <em>why doesn’t this exist yet</em>?
 
-	&ltlink rel="import" href="import.html"&gt
+	<link rel="import" href="import.html">
 
 
 ##Component Based Web-Apps
@@ -55,7 +61,7 @@ To try out <x-life\> :
 <b>Include the x-life tag</b>
 
 	<x-life> </x-life>
-
+<br>
 
 Attribute  | Options           | Default             | Description
 ---        | ---         | ---                 | ---

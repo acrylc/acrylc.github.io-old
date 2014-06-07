@@ -1,6 +1,18 @@
+a {
+    color: darken(rgb(115,247,207), 30%);
+    text-decoration: none !important;
+    &:hover{
+	    text-decoration: none !important;
+	    color: rgb(115,247,207);
+    }
+}
+
+
+
 body{
 	background-color:rgb(250,250,250);
-	border-top:5px solid rgb(230,230,228);
+	// border-top:5px solid rgb(230,230,228);
+	border-top:3px solid black;
 }
 
 #post-title{
@@ -8,7 +20,7 @@ body{
 	// font-family: "lmroman10-bold";
 	font-weight:700;
 	font-size:1.8em;
-	// letter-spacing:2px;
+	letter-spacing:2px;
 	color: black;
 	text-align:left;
 
@@ -24,7 +36,7 @@ body{
 	margin:0 auto;
 	font-family: "Proxima Nova";
 	// color: rgb(100,100,100);
-	font-weight:300;
+	font-weight:400;
 	// letter-spacing:0.5px;
 	line-height:1.5em;
 	font-size:1.1em;
@@ -50,8 +62,12 @@ body{
 	font-size:1.2em;
 	letter-spacing:2px;
 	font-weight:400;
-	margin: 45px 0 20px 0;
+	margin: 50px 0 20px 0;
 	color:black;
+}
+
+p{
+	margin: 18px 0 18px 0;
 }
 
 h1{
@@ -70,14 +86,17 @@ h1{
 	div{
 		cursor: pointer;
 		display:inline-block;
-		margin:10px;
-		font-size:1.3em;
+		margin:5px;
+		font-size:1.2em;
 		font-family:"FuturaLT";
 		font-family: "Proxima Nova";
 		font-weight:900;
 		text-transform: uppercase;
 		color:rgb(230,230,228);
 		&:hover{
+			color: black;
+		}
+		a{
 			color: black;
 		}
 	}
@@ -92,9 +111,38 @@ h1{
 pre{
 	border:0px solid black;
 	border-radius:0;
-	background-color: rgb(240,240,238);
+	background-color: rgb(240,240,240);
+	margin: 10px 0 10px 0;
 }
 
 th, td{
 	padding-right: 15px;
+}
+
+footer{
+	padding: 50px 20px 10px 10px;
+
+	margin-right: 20px;
+	text-align:right;
+	color:black;
+	width:100%;
+	font-weight: 600;
+	font-family: "futuraLT";
+	font-style:italic;
+
+}
+
+#caption{
+  position:absolute;
+  bottom:0px;
+  right:10px;
+  font-family:"FuturaLT";
+  font-size: 20px;
+  font-weight:800;
+  letter-spacing: 3px;
+  line-height:0px;
+  text-transform: uppercase;
+  color: rgb(180,180,180);
+
+
 }
