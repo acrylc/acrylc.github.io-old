@@ -77,7 +77,7 @@ body {
   width: 600px;
   margin: 0 auto;
   font-family: "Proxima Nova";
-  font-weight: 400;
+  font-weight: 100;
   line-height: 1.5em;
   font-size: 1.1em;
   padding-bottom: 50px;
@@ -101,7 +101,7 @@ body {
   text-transform: uppercase;
   font-size: 1.2em;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 700;
   margin: 50px 0 20px 0;
   color: black;
 }
@@ -139,23 +139,23 @@ h1 {
 #navbar div i {
   color: black !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003156}}
-#navbar div:hover {
-  color: #73f7cf !important;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003158}}
 #navbar div a {
   color: black;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003160}}
+#navbar div a:hover {
+  color: #73f7cf;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003167}}
 #cover {
   width: 500px;
   height: 40px;
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003173}}
 pre {
   border: 0px solid black;
   border-radius: 0;
@@ -163,35 +163,39 @@ pre {
   margin: 10px 0 10px 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003180}}
 th, td {
   padding-right: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003184}}
 footer {
   margin-right: 50px;
   text-align: right;
-  color: black;
   width: 100%;
   bottom: 10px;
   right: 0px;
   font-weight: 600;
   font-family: "futuraLT";
-  position: fixed;
+  position: absolute;
   font-size: 0.8em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003194}}
+footer a {
+  color: black;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/milan\/Documents\/blog\/sass\/main\.scss}line{font-family:\00003200}}
 #caption {
   position: absolute;
   bottom: 0px;
   right: 10px;
   font-family: "FuturaLT";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 3px;
   line-height: 0px;
   text-transform: uppercase;
   color: #b4b4b4;
+  color: black;
 }
