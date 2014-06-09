@@ -16,14 +16,11 @@ layout: default
 {% for post in site.posts limit: 10 %}
 
 <div class="row-fluid">
-  <div class="span12">
-    <span id='tocdate'>{{ post.date | date_to_long_string }}</span><span id='toctitle'>{{ post.title }}</span>
-    <p>
-    {{ post.excerpt }} <a href="{{ post.url }}">Read Post</a>
-    </p>
+  <div class="span12 toc">
+    <h2 id='toctitle'>{{ post.title }}</h2> <h3 id='tocdate'>{{ post.date | date_to_long_string }}</h3>
+    {{ post.excerpt }} <a href="{{ post.url }}" style='padding-top:0px; margin-top:0px;'>More plz.</a> 
   </div>
 </div>
-
 
 {% endfor %}
 

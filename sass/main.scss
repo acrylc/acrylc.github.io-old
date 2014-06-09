@@ -116,7 +116,7 @@ body{
 	// font-family: "lmroman10-bold";
 
 	text-transform: uppercase;
-	font-size:1.2em;
+	font-size:1.1em;
 	letter-spacing:2px;
 	font-weight:700;
 	margin: 50px 0 20px 0;
@@ -148,6 +148,7 @@ h1{
 		font-family:"FuturaLT";
 		font-family: "Proxima Nova";
 		font-weight:800;
+		letter-spacing:1px;
 		text-transform: uppercase;
 		color: black;
 		i{
@@ -211,4 +212,39 @@ footer{
   color:black;
 
 
+}
+
+code{
+	background-color: rgb(245,245,245) ;
+	color:rgb(150,150,150) ;
+}
+
+table{
+	padding: 20px !important;
+}
+
+#toctitle, #tocdate{
+	display:inline-block;
+	margin:0px !important;
+}
+h2#toctitle{
+	font-family:"FuturaLT";
+	font-weight:600;
+	padding-bottom: 0px;
+	margin:0px;
+	margin-top:30px !important;
+	font-size:1em;
+}
+#tocdate{
+	font-size:1em;
+	font-family:"Proxima Nova";
+	font-weight:400;
+	padding-left:10px;
+
+
+}
+
+.toc p{
+	padding : 0px;
+	margin:5px 0 5px 0 ;
 }
